@@ -1,6 +1,6 @@
 package study.example.core1.member;
 
-public interface memberService {
+public interface MemberService {
 
     void join(Member member);
 
