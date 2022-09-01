@@ -63,7 +63,7 @@ public class AplplicationContextExtendsFindTest {
 
 
         @Configuration
-        static class TestConfig {
+        class TestConfig {
 
             @Bean
             public DIscountPolicy rateDiscountPolicy() {
