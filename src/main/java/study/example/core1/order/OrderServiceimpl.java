@@ -26,4 +26,9 @@ public class OrderServiceimpl implements OrderService{
 
         return new Order(memberId, itemname, itemPrice, discountPrice);
     }
+    //TEst용
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
+
 }
